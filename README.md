@@ -1,6 +1,6 @@
 # Goal
 
-Purpose of this project is to get familiar with Django by following [official tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) in building my first application with django.
+Purpose of this project is to get familiar with Django by following [official tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) in building my first application with django and git workflow.
 
 
 # My configuration
