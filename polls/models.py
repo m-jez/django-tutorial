@@ -12,8 +12,10 @@ class Question(models.Model):
 
     def was_published_recently(self) -> bool:
         """Return True if question was published within last 24h"""
-        current_date = timezone.now() - datetime.timedelta(days=1)
-        return self.pub_date >= current_date
+
+        now = timezone.now()
+        yesterday = now - datetime.timedelta(days=1)
+        return now >= self.pub_date >= yesterday
 
 
 class Choice(models.Model):
